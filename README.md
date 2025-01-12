@@ -40,31 +40,11 @@ Since this project is an API, the interface is command-line based and interacts 
   "English Translation": "It doesn’t matter what anything seems to be; wisdom lies in seeking to grasp its true nature."
 }
 ```
-## Features
-Random Thirukkural Verse: Fetches a random Tamil verse along with its English translation.
-Dual Language Support: Serves both Tamil and English versions.
-FastAPI: Built using FastAPI for speed and simplicity.
-Startup Optimization: Efficient file reading during startup to load data only once.
+## Features:
+- **Random Thirukkural Verse:** Fetches a random Tamil verse along with its English translation.
+- **Dual Language Support:** Serves both Tamil and English versions.
+- **FastAPI:** Built using FastAPI for speed and simplicity.
+- **Startup Optimization:** Efficient file reading during startup to load data only once.
 
-## How to Run the Project
-**Prerequisites**
-- **Python 3.6 or higher**
-- **Uvicorn for serving the FastAPI app**
-
-Setup Instructions
-Clone the repository:
-
-```
-git clone https://github.com/yourusername/thirukkural-api.git
-cd thirukkural-api
-```
-
-You Can Run in API 
-API Link : " "
-
-Run the FastAPI app:
-
-Access the API at http://127.0.0.1:8000/ to get a random Thirukkural verse.
-
-Hosting
-To make the API accessible online, you can deploy it using platforms like Heroku, AWS, or DigitalOcean. The hosted API will allow users from anywhere to access the Thirukkural API easily.
+You can also run the API 
+- **API Link:** https://thirukkuralapi.onrender.com

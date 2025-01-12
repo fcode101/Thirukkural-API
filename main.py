@@ -12,11 +12,11 @@ def load_thirukkural():
     global thirukkural
     global english
               # Read Tamil version of Thirukkural
-    with open('thirukkural.txt', 'r', encoding='utf8') as file:
+    with open('Tamil_Thirukkural.txt', 'r', encoding='utf8') as file:
         thirukkural = [line.strip() for line in file if line.strip()] 
         
                 # Read English version of Thirukkural
-    with open('English_thirukkural.txt', 'r', encoding='utf8') as file:
+    with open('English_Thirukkural.txt', 'r', encoding='utf8') as file:
         english = [line.strip() for line in file if line.strip()]     
 
 @app.get("/")

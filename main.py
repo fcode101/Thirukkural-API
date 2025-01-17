@@ -38,7 +38,7 @@ def load_thirukkural():
     global english
 
     # Read Tamil version of Thirukkural
-    with open("Thirukkural.txt", "r", encoding="utf8") as file:
+    with open("Tamil_Thirukkural.txt", "r", encoding="utf8") as file:
         thirukkural = [line.strip() for line in file if line.strip()]
 
     # Read English version of Thirukkural

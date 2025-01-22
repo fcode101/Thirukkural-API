@@ -9,7 +9,7 @@ app = FastAPI(
     This API fetches random Thirukkural verses each time a request is made, offering a seamless way for users to access a piece of this ancient text without having to read through the entire book. It's designed to be a convenient resource for education, research, or personal enrichment.
     """,
     version="1.0.0",
-    docs_url="/",
+    docs_url="/docs",
     redoc_url="/redoc",
     contact={
         "name": "Support Team",

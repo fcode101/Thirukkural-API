@@ -48,3 +48,6 @@ Since this project is an API, the interface is command-line based and interacts 
 
 You can also run the API 
 - **API Link:** https://thirukkuralapi.onrender.com
+
+## Social Media:
+- **YouTube:** **https://www.youtube.com/@F-Code101**
